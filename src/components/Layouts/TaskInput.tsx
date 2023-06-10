@@ -31,9 +31,9 @@ const TaskInput = ({ handleAddTask }: ITaskInput) => {
   return (
     <form
       onSubmit={(e) => e.preventDefault()}
-      className="px-6 flex flex-col gap-6 mt-6 pb-20 md:px-96 md:gap-8"
+      className="px-7 flex flex-col gap-6 mt-6 pb-20 md:px-48 md:gap-8"
     >
-      <p className="text-center text-xl font-bold text-gray-200 md:text-2xl">{status}</p>
+      <p className="text-center text-xl font-bold italic text-gray-200 md:text-2xl">{status}</p>
       <Input
         placeholder="Judul"
         handleInputTask={(value: string) => {
