@@ -15,6 +15,7 @@ const Home = ({ data, handleDeleteTask }: IHomeProps) => {
   return (
     <div className="bg-yellow-500 w-full h-screen pt-6">
       <h1 className="text-4xl font-bold italic text-center">My Tasks List</h1>
+      <p className="text-center mt-2.5 font-semibold text-sm">Created by @Adnan</p>
       <TasksList tasks={data} handleDeleteTask={handleDeleteTask} />
       <Link
         to="/add"
