@@ -13,7 +13,7 @@ interface IHomeProps {
 
 const Home = ({ data, handleDeleteTask }: IHomeProps) => {
   return (
-    <div className="bg-yellow-500 w-full h-screen pt-10">
+    <div className="bg-yellow-500 w-full h-screen pt-10 overflow-auto">
       <h1 className="text-4xl font-bold text-center tracking-wider md:text-6xl">
         My Tasks List
       </h1>

@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Untuk Firefox */
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
