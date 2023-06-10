@@ -12,7 +12,7 @@ const Input = ({ placeholder, handleInputTask }: IInputProps) => {
         const value = e.target.value;
         handleInputTask(value);
       }}
-      className="py-2.5 px-3 border-4 border-yellow-500 bg-gray-200 text-black text-lg"
+      className="py-2.5 px-3 border-4 rounded-md border-yellow-400 bg-gray-200 text-black text-lg md:py-6 md:px-4"
     />
   );
 };

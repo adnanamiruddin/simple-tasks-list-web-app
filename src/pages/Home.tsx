@@ -19,7 +19,7 @@ const Home = ({ data, handleDeleteTask }: IHomeProps) => {
       <TasksList tasks={data} handleDeleteTask={handleDeleteTask} />
       <Link
         to="/add"
-        className="bg-green-600 fixed bottom-4 right-5 p-3 font-bold text-base rounded-lg cursor-pointer md:text-xl md:bottom-8 md:right-8"
+        className="bg-green-600 fixed bottom-4 right-5 p-3 font-bold text-base rounded-lg cursor-pointer md:text-xl md:bottom-6 md:right-6"
       >
         Add Task
       </Link>
