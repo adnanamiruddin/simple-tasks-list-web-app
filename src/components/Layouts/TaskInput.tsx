@@ -86,14 +86,3 @@ const TaskInput = ({ handleAddTask }: ITaskInput) => {
 };
 
 export default TaskInput;
-
-// const handleClickAddTask = () => {
-//   handleAddTask(inputValue.judul, inputValue.deskripsi, inputValue.deadline);
-//   setStatus("Successfully Added Task");
-//   setTimeout(() => {
-//     setStatus("Redirecting to Home...");
-//   }, 2000);
-//   setTimeout(() => {
-//     navigate("/");
-//   }, 4000);
-// };
