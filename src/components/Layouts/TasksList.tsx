@@ -16,10 +16,10 @@ const TasksList = ({ tasks, handleDeleteTask }: ITasksListProps) => {
   };
 
   return (
-    <div className="bg-yellow-500 px-6 flex flex-col gap-8 mt-7 pb-20">
+    <div className="bg-yellow-500 px-6 flex flex-col justify-center gap-8 mt-7 pb-20 md:flex-row md:flex-wrap">
       {isEmpty() ? (
-        <div className="bg-stone-600 rounded-md p-6">
-          <p className="text-2xl font-bold text-center text-white">No Tasks</p>
+        <div className="bg-stone-600 rounded-md py-6 md:px-28 md:mt-10">
+          <p className="text-2xl font-bold text-center text-white md:text-3xl">No Tasks</p>
         </div>
       ) : (
         tasks.map((task, i) => (
